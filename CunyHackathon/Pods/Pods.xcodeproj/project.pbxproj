@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153FBE03E745CAB3D254D713E39F5628 /* CSV.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D09CA2C4CCC6EED7B48B860E1A424BF7 /* CSV.swift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		181DD3D836D22FF763E5FF83CEB5542C /* CSVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F1083C2F79B93A17E759EA64BE1B0 /* CSVError.swift */; };
+		21C17C4B8DFB852BD8DD52625C70740A /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B369DDFA878402ABDAC19DEBE21459 /* CSV.swift */; };
+		3918F7C2EB0852C3137924968FE0F7C3 /* UnicodeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FBAEF4C8C3F6DF966828313B210019 /* UnicodeIterator.swift */; };
+		5CDA508E3E1BBE1113E8C8B98421C345 /* Pods-CunyHackathon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBF5D986982D5B82A63F96694C028CC /* Pods-CunyHackathon-dummy.m */; };
+		69F5ADD650D0CA4A8C0C844965BE7DD6 /* CSV.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB5C61C0AC43FA2EC600521D838030F /* CSV.swift-dummy.m */; };
+		88AB39383DE60DF5436B433B462435F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		92B9225B9D724D3B6D85AA49FD62BF0B /* CSVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523561B359CB959EC3E55014C7406ABC /* CSVWriter.swift */; };
+		977FBA624A34DE09DFFA46CDA8058F72 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF091B5901FEB275C56F560393CC5199 /* CSVReader.swift */; };
+		A082FE8039B04F12B8ACF8059F0483EC /* Pods-CunyHackathon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC17C4B378E00C3486614DE766C930AB /* Pods-CunyHackathon-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1738116C0C67A1E1E5F4D1B934BFD75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CD6978481397720F5A701893ACE47EA1 /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139BFC44E6898C1B1618CCD4622D1B08 /* Endian.swift */; };
+		EA9EE89B1DAD4E4D56C862E97745EAC9 /* BinaryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29302A24EF6B0C9152F8FACAF36191E /* BinaryReader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		648CFC092757966993690E2D015DDEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0BF7829B0E77282C29F15C7504ED407;
+			remoteInfo = CSV.swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006F513F0BCD42453F58BB0F63CB6DEC /* Pods-CunyHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CunyHackathon.release.xcconfig"; sourceTree = "<group>"; };
+		139BFC44E6898C1B1618CCD4622D1B08 /* Endian.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endian.swift; path = Sources/Endian.swift; sourceTree = "<group>"; };
+		1D12446DF1E13C4E9C9951419E8C948C /* libPods-CunyHackathon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CunyHackathon.a"; path = "libPods-CunyHackathon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		223AAA427C4DEE8FB9266811401FF4A2 /* CSV.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSV.swift-prefix.pch"; sourceTree = "<group>"; };
+		2403527CC4A80F46A5043F6D4AAC641B /* Pods-CunyHackathon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CunyHackathon-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D0F1083C2F79B93A17E759EA64BE1B0 /* CSVError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVError.swift; path = Sources/CSVError.swift; sourceTree = "<group>"; };
+		43F2B49429C844958DEE3DA098A716D9 /* Pods-CunyHackathon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CunyHackathon.modulemap"; sourceTree = "<group>"; };
+		48C49D1B851A446682351D5D3C9A04BC /* Pods-CunyHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CunyHackathon.debug.xcconfig"; sourceTree = "<group>"; };
+		523561B359CB959EC3E55014C7406ABC /* CSVWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVWriter.swift; path = Sources/CSVWriter.swift; sourceTree = "<group>"; };
+		5A41BD2FD8060BA268CD47EB28354723 /* libCSV.swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCSV.swift.a; path = libCSV.swift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		698F1C5604588ECB19E518BE9CC31A44 /* CSV.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = CSV.swift.modulemap; path = ../../Headers/Public/CSV/CSV.swift.modulemap; sourceTree = "<group>"; };
+		6DBF5D986982D5B82A63F96694C028CC /* Pods-CunyHackathon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CunyHackathon-dummy.m"; sourceTree = "<group>"; };
+		7B8D2CED15098775E8FA7B72C7F00225 /* Pods-CunyHackathon-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CunyHackathon-frameworks.sh"; sourceTree = "<group>"; };
+		7FCEA2C957B84B6E94566A81A7F6BD14 /* Pods-CunyHackathon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CunyHackathon-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E509ED24E01AE06D0989B895D873715 /* CSV.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSV.swift.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A29302A24EF6B0C9152F8FACAF36191E /* BinaryReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryReader.swift; path = Sources/BinaryReader.swift; sourceTree = "<group>"; };
+		BF091B5901FEB275C56F560393CC5199 /* CSVReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVReader.swift; path = Sources/CSVReader.swift; sourceTree = "<group>"; };
+		C7B369DDFA878402ABDAC19DEBE21459 /* CSV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSV.swift; path = Sources/CSV.swift; sourceTree = "<group>"; };
+		CC17C4B378E00C3486614DE766C930AB /* Pods-CunyHackathon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CunyHackathon-umbrella.h"; sourceTree = "<group>"; };
+		D09CA2C4CCC6EED7B48B860E1A424BF7 /* CSV.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CSV.swift-umbrella.h"; path = "../../Headers/Public/CSV/CSV.swift-umbrella.h"; sourceTree = "<group>"; };
+		D0FBAEF4C8C3F6DF966828313B210019 /* UnicodeIterator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnicodeIterator.swift; path = Sources/UnicodeIterator.swift; sourceTree = "<group>"; };
+		FBB5C61C0AC43FA2EC600521D838030F /* CSV.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSV.swift-dummy.m"; sourceTree = "<group>"; };
+		FEFA85D035F900EE82D7A0AD4E71579D /* Pods-CunyHackathon-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CunyHackathon-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33E0C104660B04E4FF48F224F336A64B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1738116C0C67A1E1E5F4D1B934BFD75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55865CDC57F090A8A36B0156826567E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AB39383DE60DF5436B433B462435F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075E0064CE5400017A326424A2DEEB69 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				698F1C5604588ECB19E518BE9CC31A44 /* CSV.swift.modulemap */,
+				8E509ED24E01AE06D0989B895D873715 /* CSV.swift.xcconfig */,
+				FBB5C61C0AC43FA2EC600521D838030F /* CSV.swift-dummy.m */,
+				223AAA427C4DEE8FB9266811401FF4A2 /* CSV.swift-prefix.pch */,
+				D09CA2C4CCC6EED7B48B860E1A424BF7 /* CSV.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CSV.swift";
+			sourceTree = "<group>";
+		};
+		524C0570ED50B81DF59D9A1C07EB5324 /* CSV.swift */ = {
+			isa = PBXGroup;
+			children = (
+				A29302A24EF6B0C9152F8FACAF36191E /* BinaryReader.swift */,
+				C7B369DDFA878402ABDAC19DEBE21459 /* CSV.swift */,
+				3D0F1083C2F79B93A17E759EA64BE1B0 /* CSVError.swift */,
+				BF091B5901FEB275C56F560393CC5199 /* CSVReader.swift */,
+				523561B359CB959EC3E55014C7406ABC /* CSVWriter.swift */,
+				139BFC44E6898C1B1618CCD4622D1B08 /* Endian.swift */,
+				D0FBAEF4C8C3F6DF966828313B210019 /* UnicodeIterator.swift */,
+				075E0064CE5400017A326424A2DEEB69 /* Support Files */,
+			);
+			name = CSV.swift;
+			path = CSV.swift;
+			sourceTree = "<group>";
+		};
+		7173179DF496D068F2EAC19378472235 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				524C0570ED50B81DF59D9A1C07EB5324 /* CSV.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7173179DF496D068F2EAC19378472235 /* Pods */,
+				BDC83BDF099976C8EF9AFE08DD9FD545 /* Products */,
+				DDE52DACF25C96D6A1FACE86CC349273 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDC83BDF099976C8EF9AFE08DD9FD545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A41BD2FD8060BA268CD47EB28354723 /* libCSV.swift.a */,
+				1D12446DF1E13C4E9C9951419E8C948C /* libPods-CunyHackathon.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3AA9938BCA485ECC43B04BFC286D164 /* Pods-CunyHackathon */ = {
+			isa = PBXGroup;
+			children = (
+				43F2B49429C844958DEE3DA098A716D9 /* Pods-CunyHackathon.modulemap */,
+				2403527CC4A80F46A5043F6D4AAC641B /* Pods-CunyHackathon-acknowledgements.markdown */,
+				7FCEA2C957B84B6E94566A81A7F6BD14 /* Pods-CunyHackathon-acknowledgements.plist */,
+				6DBF5D986982D5B82A63F96694C028CC /* Pods-CunyHackathon-dummy.m */,
+				7B8D2CED15098775E8FA7B72C7F00225 /* Pods-CunyHackathon-frameworks.sh */,
+				FEFA85D035F900EE82D7A0AD4E71579D /* Pods-CunyHackathon-resources.sh */,
+				CC17C4B378E00C3486614DE766C930AB /* Pods-CunyHackathon-umbrella.h */,
+				48C49D1B851A446682351D5D3C9A04BC /* Pods-CunyHackathon.debug.xcconfig */,
+				006F513F0BCD42453F58BB0F63CB6DEC /* Pods-CunyHackathon.release.xcconfig */,
+			);
+			name = "Pods-CunyHackathon";
+			path = "Target Support Files/Pods-CunyHackathon";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DDE52DACF25C96D6A1FACE86CC349273 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3AA9938BCA485ECC43B04BFC286D164 /* Pods-CunyHackathon */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BB2E1C621BC1C1980D1ED96B7FD3A2C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A082FE8039B04F12B8ACF8059F0483EC /* Pods-CunyHackathon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F548EC1414C7A89A0BB9CB59E7843A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153FBE03E745CAB3D254D713E39F5628 /* CSV.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A0BF7829B0E77282C29F15C7504ED407 /* CSV.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4B8937C7D5EBA135F5107D566944CF /* Build configuration list for PBXNativeTarget "CSV.swift" */;
+			buildPhases = (
+				6C913CCFFEB18E7AFC9BCF839F6B6E1B /* Sources */,
+				E55865CDC57F090A8A36B0156826567E /* Frameworks */,
+				C9F548EC1414C7A89A0BB9CB59E7843A /* Headers */,
+				18FCA7E3CED559B235E83F108811A08F /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSV.swift;
+			productName = CSV.swift;
+			productReference = 5A41BD2FD8060BA268CD47EB28354723 /* libCSV.swift.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B1018FCD8466740B463E3662C818231F /* Pods-CunyHackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F76C1657082955765A10F2BA3C9AB7 /* Build configuration list for PBXNativeTarget "Pods-CunyHackathon" */;
+			buildPhases = (
+				AC6035212139764E3CA34A716BFC39BF /* Sources */,
+				33E0C104660B04E4FF48F224F336A64B /* Frameworks */,
+				BB2E1C621BC1C1980D1ED96B7FD3A2C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2F3BE5B9E4CA3F046A95F9F54A154AD /* PBXTargetDependency */,
+			);
+			name = "Pods-CunyHackathon";
+			productName = "Pods-CunyHackathon";
+			productReference = 1D12446DF1E13C4E9C9951419E8C948C /* libPods-CunyHackathon.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BDC83BDF099976C8EF9AFE08DD9FD545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0BF7829B0E77282C29F15C7504ED407 /* CSV.swift */,
+				B1018FCD8466740B463E3662C818231F /* Pods-CunyHackathon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18FCA7E3CED559B235E83F108811A08F /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/CSV/CSV.swift.modulemap",
+				"${PODS_ROOT}/Headers/Public/CSV/CSV.swift-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/CSV.swift-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CSV/CSV.swift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CSV/CSV.swift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C913CCFFEB18E7AFC9BCF839F6B6E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9EE89B1DAD4E4D56C862E97745EAC9 /* BinaryReader.swift in Sources */,
+				21C17C4B8DFB852BD8DD52625C70740A /* CSV.swift in Sources */,
+				69F5ADD650D0CA4A8C0C844965BE7DD6 /* CSV.swift-dummy.m in Sources */,
+				181DD3D836D22FF763E5FF83CEB5542C /* CSVError.swift in Sources */,
+				977FBA624A34DE09DFFA46CDA8058F72 /* CSVReader.swift in Sources */,
+				92B9225B9D724D3B6D85AA49FD62BF0B /* CSVWriter.swift in Sources */,
+				CD6978481397720F5A701893ACE47EA1 /* Endian.swift in Sources */,
+				3918F7C2EB0852C3137924968FE0F7C3 /* UnicodeIterator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6035212139764E3CA34A716BFC39BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDA508E3E1BBE1113E8C8B98421C345 /* Pods-CunyHackathon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2F3BE5B9E4CA3F046A95F9F54A154AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CSV.swift;
+			target = A0BF7829B0E77282C29F15C7504ED407 /* CSV.swift */;
+			targetProxy = 648CFC092757966993690E2D015DDEFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		632ACC832064C85A7C12AA587DF141AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E509ED24E01AE06D0989B895D873715 /* CSV.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CSV.swift/CSV.swift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/CSV/CSV.swift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CSV;
+				PRODUCT_NAME = CSV.swift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		99AB532017C93D84A9B13DFFBC80DA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E509ED24E01AE06D0989B895D873715 /* CSV.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CSV.swift/CSV.swift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/CSV/CSV.swift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CSV;
+				PRODUCT_NAME = CSV.swift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E274540CEAFC0582613C84F55505F872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48C49D1B851A446682351D5D3C9A04BC /* Pods-CunyHackathon.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CunyHackathon/Pods-CunyHackathon.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7AC882EBB5742A729BF90BA12F94CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 006F513F0BCD42453F58BB0F63CB6DEC /* Pods-CunyHackathon.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CunyHackathon/Pods-CunyHackathon.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D4B8937C7D5EBA135F5107D566944CF /* Build configuration list for PBXNativeTarget "CSV.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632ACC832064C85A7C12AA587DF141AC /* Debug */,
+				99AB532017C93D84A9B13DFFBC80DA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F76C1657082955765A10F2BA3C9AB7 /* Build configuration list for PBXNativeTarget "Pods-CunyHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E274540CEAFC0582613C84F55505F872 /* Debug */,
+				E7AC882EBB5742A729BF90BA12F94CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

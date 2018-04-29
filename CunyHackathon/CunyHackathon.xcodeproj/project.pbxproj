@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5682F828ED0A3891A0E365BA /* libPods-CunyHackathon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 096FC85EBF0BEFA0E8F9E79C /* libPods-CunyHackathon.a */; };
+		9B21C32B20951A35008BEDFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B21C32A20951A35008BEDFC /* AppDelegate.swift */; };
+		9B21C33020951A35008BEDFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B21C32E20951A35008BEDFC /* Main.storyboard */; };
+		9B21C33320951A35008BEDFC /* CunyHackathon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B21C33120951A35008BEDFC /* CunyHackathon.xcdatamodeld */; };
+		9B21C33520951A37008BEDFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B21C33420951A37008BEDFC /* Assets.xcassets */; };
+		9B21C33820951A37008BEDFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B21C33620951A37008BEDFC /* LaunchScreen.storyboard */; };
+		9B21C34320951A37008BEDFC /* CunyHackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B21C34220951A37008BEDFC /* CunyHackathonTests.swift */; };
+		9B21C34E20951A37008BEDFC /* CunyHackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B21C34D20951A37008BEDFC /* CunyHackathonUITests.swift */; };
+		9B21C35C20952003008BEDFC /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B21C35B20952003008BEDFC /* Search.swift */; };
+		9B21C35F209540E6008BEDFC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B21C35E209540E6008BEDFC /* MapKit.framework */; };
+		9B21C365209576E3008BEDFC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B21C364209576E3008BEDFC /* Home.swift */; };
+		9B21C36720957E9F008BEDFC /* FoodAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B21C36620957E9F008BEDFC /* FoodAnnotation.swift */; };
+		9BDD9BEA209619070016F5BE /* PendingPickUps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDD9BE9209619060016F5BE /* PendingPickUps.swift */; };
+		9BDD9BEC209619530016F5BE /* PendingPickUpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDD9BEB209619530016F5BE /* PendingPickUpCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B21C33F20951A37008BEDFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B21C31F20951A35008BEDFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B21C32620951A35008BEDFC;
+			remoteInfo = CunyHackathon;
+		};
+		9B21C34A20951A37008BEDFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B21C31F20951A35008BEDFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B21C32620951A35008BEDFC;
+			remoteInfo = CunyHackathon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		096FC85EBF0BEFA0E8F9E79C /* libPods-CunyHackathon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CunyHackathon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F897D1CD748C60446D44163 /* Pods-CunyHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CunyHackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CunyHackathon/Pods-CunyHackathon.debug.xcconfig"; sourceTree = "<group>"; };
+		60B519256BD79A88A3273659 /* Pods-CunyHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CunyHackathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-CunyHackathon/Pods-CunyHackathon.release.xcconfig"; sourceTree = "<group>"; };
+		9B21C32720951A35008BEDFC /* CunyHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CunyHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B21C32A20951A35008BEDFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B21C32F20951A35008BEDFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B21C33220951A35008BEDFC /* CunyHackathon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CunyHackathon.xcdatamodel; sourceTree = "<group>"; };
+		9B21C33420951A37008BEDFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B21C33720951A37008BEDFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B21C33920951A37008BEDFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B21C33E20951A37008BEDFC /* CunyHackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CunyHackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B21C34220951A37008BEDFC /* CunyHackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CunyHackathonTests.swift; sourceTree = "<group>"; };
+		9B21C34420951A37008BEDFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B21C34920951A37008BEDFC /* CunyHackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CunyHackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B21C34D20951A37008BEDFC /* CunyHackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CunyHackathonUITests.swift; sourceTree = "<group>"; };
+		9B21C34F20951A37008BEDFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B21C35B20952003008BEDFC /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		9B21C35E209540E6008BEDFC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9B21C364209576E3008BEDFC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9B21C36620957E9F008BEDFC /* FoodAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAnnotation.swift; sourceTree = "<group>"; };
+		9BDD9BE9209619060016F5BE /* PendingPickUps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingPickUps.swift; sourceTree = "<group>"; };
+		9BDD9BEB209619530016F5BE /* PendingPickUpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingPickUpCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B21C32420951A35008BEDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B21C35F209540E6008BEDFC /* MapKit.framework in Frameworks */,
+				5682F828ED0A3891A0E365BA /* libPods-CunyHackathon.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B21C33B20951A37008BEDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B21C34620951A37008BEDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B21C31E20951A35008BEDFC = {
+			isa = PBXGroup;
+			children = (
+				9B21C32920951A35008BEDFC /* CunyHackathon */,
+				9B21C34120951A37008BEDFC /* CunyHackathonTests */,
+				9B21C34C20951A37008BEDFC /* CunyHackathonUITests */,
+				9B21C32820951A35008BEDFC /* Products */,
+				9B21C35D209540E6008BEDFC /* Frameworks */,
+				DFA5F008953200A60BBBD9DC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9B21C32820951A35008BEDFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B21C32720951A35008BEDFC /* CunyHackathon.app */,
+				9B21C33E20951A37008BEDFC /* CunyHackathonTests.xctest */,
+				9B21C34920951A37008BEDFC /* CunyHackathonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B21C32920951A35008BEDFC /* CunyHackathon */ = {
+			isa = PBXGroup;
+			children = (
+				9B21C33420951A37008BEDFC /* Assets.xcassets */,
+				9B21C33620951A37008BEDFC /* LaunchScreen.storyboard */,
+				9B21C32E20951A35008BEDFC /* Main.storyboard */,
+				9B21C32A20951A35008BEDFC /* AppDelegate.swift */,
+				9B21C35B20952003008BEDFC /* Search.swift */,
+				9B21C364209576E3008BEDFC /* Home.swift */,
+				9B21C36620957E9F008BEDFC /* FoodAnnotation.swift */,
+				9BDD9BE9209619060016F5BE /* PendingPickUps.swift */,
+				9BDD9BEB209619530016F5BE /* PendingPickUpCell.swift */,
+				9B21C33920951A37008BEDFC /* Info.plist */,
+				9B21C33120951A35008BEDFC /* CunyHackathon.xcdatamodeld */,
+			);
+			path = CunyHackathon;
+			sourceTree = "<group>";
+		};
+		9B21C34120951A37008BEDFC /* CunyHackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B21C34220951A37008BEDFC /* CunyHackathonTests.swift */,
+				9B21C34420951A37008BEDFC /* Info.plist */,
+			);
+			path = CunyHackathonTests;
+			sourceTree = "<group>";
+		};
+		9B21C34C20951A37008BEDFC /* CunyHackathonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B21C34D20951A37008BEDFC /* CunyHackathonUITests.swift */,
+				9B21C34F20951A37008BEDFC /* Info.plist */,
+			);
+			path = CunyHackathonUITests;
+			sourceTree = "<group>";
+		};
+		9B21C35D209540E6008BEDFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B21C35E209540E6008BEDFC /* MapKit.framework */,
+				096FC85EBF0BEFA0E8F9E79C /* libPods-CunyHackathon.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFA5F008953200A60BBBD9DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F897D1CD748C60446D44163 /* Pods-CunyHackathon.debug.xcconfig */,
+				60B519256BD79A88A3273659 /* Pods-CunyHackathon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B21C32620951A35008BEDFC /* CunyHackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B21C35220951A37008BEDFC /* Build configuration list for PBXNativeTarget "CunyHackathon" */;
+			buildPhases = (
+				14E44554CE13273BF03A15E3 /* [CP] Check Pods Manifest.lock */,
+				9B21C32320951A35008BEDFC /* Sources */,
+				9B21C32420951A35008BEDFC /* Frameworks */,
+				9B21C32520951A35008BEDFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CunyHackathon;
+			productName = CunyHackathon;
+			productReference = 9B21C32720951A35008BEDFC /* CunyHackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B21C33D20951A37008BEDFC /* CunyHackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B21C35520951A37008BEDFC /* Build configuration list for PBXNativeTarget "CunyHackathonTests" */;
+			buildPhases = (
+				9B21C33A20951A37008BEDFC /* Sources */,
+				9B21C33B20951A37008BEDFC /* Frameworks */,
+				9B21C33C20951A37008BEDFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B21C34020951A37008BEDFC /* PBXTargetDependency */,
+			);
+			name = CunyHackathonTests;
+			productName = CunyHackathonTests;
+			productReference = 9B21C33E20951A37008BEDFC /* CunyHackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B21C34820951A37008BEDFC /* CunyHackathonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B21C35820951A37008BEDFC /* Build configuration list for PBXNativeTarget "CunyHackathonUITests" */;
+			buildPhases = (
+				9B21C34520951A37008BEDFC /* Sources */,
+				9B21C34620951A37008BEDFC /* Frameworks */,
+				9B21C34720951A37008BEDFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B21C34B20951A37008BEDFC /* PBXTargetDependency */,
+			);
+			name = CunyHackathonUITests;
+			productName = CunyHackathonUITests;
+			productReference = 9B21C34920951A37008BEDFC /* CunyHackathonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B21C31F20951A35008BEDFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Keith Cornish";
+				TargetAttributes = {
+					9B21C32620951A35008BEDFC = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					9B21C33D20951A37008BEDFC = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9B21C32620951A35008BEDFC;
+					};
+					9B21C34820951A37008BEDFC = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9B21C32620951A35008BEDFC;
+					};
+				};
+			};
+			buildConfigurationList = 9B21C32220951A35008BEDFC /* Build configuration list for PBXProject "CunyHackathon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B21C31E20951A35008BEDFC;
+			productRefGroup = 9B21C32820951A35008BEDFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B21C32620951A35008BEDFC /* CunyHackathon */,
+				9B21C33D20951A37008BEDFC /* CunyHackathonTests */,
+				9B21C34820951A37008BEDFC /* CunyHackathonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B21C32520951A35008BEDFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B21C33820951A37008BEDFC /* LaunchScreen.storyboard in Resources */,
+				9B21C33520951A37008BEDFC /* Assets.xcassets in Resources */,
+				9B21C33020951A35008BEDFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B21C33C20951A37008BEDFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B21C34720951A37008BEDFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14E44554CE13273BF03A15E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CunyHackathon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B21C32320951A35008BEDFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B21C32B20951A35008BEDFC /* AppDelegate.swift in Sources */,
+				9B21C365209576E3008BEDFC /* Home.swift in Sources */,
+				9B21C36720957E9F008BEDFC /* FoodAnnotation.swift in Sources */,
+				9B21C35C20952003008BEDFC /* Search.swift in Sources */,
+				9B21C33320951A35008BEDFC /* CunyHackathon.xcdatamodeld in Sources */,
+				9BDD9BEA209619070016F5BE /* PendingPickUps.swift in Sources */,
+				9BDD9BEC209619530016F5BE /* PendingPickUpCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B21C33A20951A37008BEDFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B21C34320951A37008BEDFC /* CunyHackathonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B21C34520951A37008BEDFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B21C34E20951A37008BEDFC /* CunyHackathonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B21C34020951A37008BEDFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B21C32620951A35008BEDFC /* CunyHackathon */;
+			targetProxy = 9B21C33F20951A37008BEDFC /* PBXContainerItemProxy */;
+		};
+		9B21C34B20951A37008BEDFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B21C32620951A35008BEDFC /* CunyHackathon */;
+			targetProxy = 9B21C34A20951A37008BEDFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B21C32E20951A35008BEDFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B21C32F20951A35008BEDFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B21C33620951A37008BEDFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B21C33720951A37008BEDFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B21C35020951A37008BEDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B21C35120951A37008BEDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B21C35320951A37008BEDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F897D1CD748C60446D44163 /* Pods-CunyHackathon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2QXSHP7Y68;
+				INFOPLIST_FILE = CunyHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Keith.CunyHackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B21C35420951A37008BEDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B519256BD79A88A3273659 /* Pods-CunyHackathon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2QXSHP7Y68;
+				INFOPLIST_FILE = CunyHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Keith.CunyHackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B21C35620951A37008BEDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2QXSHP7Y68;
+				INFOPLIST_FILE = CunyHackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Keith.CunyHackathonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CunyHackathon.app/CunyHackathon";
+			};
+			name = Debug;
+		};
+		9B21C35720951A37008BEDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2QXSHP7Y68;
+				INFOPLIST_FILE = CunyHackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Keith.CunyHackathonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CunyHackathon.app/CunyHackathon";
+			};
+			name = Release;
+		};
+		9B21C35920951A37008BEDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2QXSHP7Y68;
+				INFOPLIST_FILE = CunyHackathonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Keith.CunyHackathonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CunyHackathon;
+			};
+			name = Debug;
+		};
+		9B21C35A20951A37008BEDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2QXSHP7Y68;
+				INFOPLIST_FILE = CunyHackathonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Keith.CunyHackathonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CunyHackathon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B21C32220951A35008BEDFC /* Build configuration list for PBXProject "CunyHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B21C35020951A37008BEDFC /* Debug */,
+				9B21C35120951A37008BEDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B21C35220951A37008BEDFC /* Build configuration list for PBXNativeTarget "CunyHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B21C35320951A37008BEDFC /* Debug */,
+				9B21C35420951A37008BEDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B21C35520951A37008BEDFC /* Build configuration list for PBXNativeTarget "CunyHackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B21C35620951A37008BEDFC /* Debug */,
+				9B21C35720951A37008BEDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B21C35820951A37008BEDFC /* Build configuration list for PBXNativeTarget "CunyHackathonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B21C35920951A37008BEDFC /* Debug */,
+				9B21C35A20951A37008BEDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B21C33120951A35008BEDFC /* CunyHackathon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B21C33220951A35008BEDFC /* CunyHackathon.xcdatamodel */,
+			);
+			currentVersion = 9B21C33220951A35008BEDFC /* CunyHackathon.xcdatamodel */;
+			path = CunyHackathon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B21C31F20951A35008BEDFC /* Project object */;
+}
